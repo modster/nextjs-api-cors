@@ -1,9 +1,6 @@
 const Binance = require('node-binance-api');
-/**
- *                  t r a d e H i s t o r y ( )
- */
 
- // I n s t a n t i a t e  B i n a n c e  O b j
+// I n s t a n t i a t e  B i n a n c e  O b j
 const binance = new Binance().options({
   APIKEY: "58dpa4DvxQvEdGdsMQON3VueLTTR6qUUBZdTTcCGCNPnQkGH7umVH7vizgdG1vni",
   APISECRET: "hsTqehYpdBRd7t6rPjcAljMSpXuFKlPSJmQC18WnZfFynjL5LMgcpG9djDSKSTdg",
