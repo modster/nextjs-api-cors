@@ -1,11 +1,9 @@
 const Binance = require('node-binance-api');
-const header = require('./header.js');
-
 /**
  *                  t r a d e H i s t o r y ( )
  */
 
- // B i n a n c e   C o n s t r u c t o r 
+ // I n s t a n t i a t e  B i n a n c e  O b j
 const binance = new Binance().options({
   APIKEY: "58dpa4DvxQvEdGdsMQON3VueLTTR6qUUBZdTTcCGCNPnQkGH7umVH7vizgdG1vni",
   APISECRET: "hsTqehYpdBRd7t6rPjcAljMSpXuFKlPSJmQC18WnZfFynjL5LMgcpG9djDSKSTdg",
@@ -16,10 +14,10 @@ const binance = new Binance().options({
   reconnect: true,
 });
 
-// E x p o r t  F u n c t i o n
+// E x p o r t  D e f a u l t  F u n c t i o n
 export default function allTrades(req, res) {
   var postData = req.body; // var postData = JSON.parse(req.body);
-  
+
   // G e t  T r a d e s
   binance.trades(postData.symbol, function (error, json) {
     if (error) return console.error(error);
