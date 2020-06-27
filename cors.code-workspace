@@ -4,10 +4,10 @@
       "path": "."
     },
     {
-      "path": "..\\snippets-master\\nextjs"
+      "path": "..\\nextjs-api"
     },
     {
-      "path": "..\\nextjs-api"
+      "path": "..\\snippets-master"
     }
   ],
   "settings": {}
