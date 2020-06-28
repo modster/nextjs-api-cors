@@ -1,14 +1,11 @@
 {
 	"folders": [
-    {
-      "path": "."
-    },
-    {
-      "path": "..\\nextjs-api"
-    },
-    {
-      "path": "..\\snippets-master"
-    }
-  ],
-  "settings": {}
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\snippets-master"
+		}
+	],
+	"settings": {}
 }
